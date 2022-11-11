@@ -1,0 +1,27 @@
+@charset "UTF-8";
+* {
+    background-color: beige;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: chocolate;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid brown;
+    margin: 10%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
