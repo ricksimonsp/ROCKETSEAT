@@ -23,3 +23,32 @@
     * Escrever em Inglês
 
 */
+//Object
+/* const person = {
+    name: 'Ricardo',
+    age: 49,
+    weight: 84.5,
+    isAdmin: true
+}
+
+console.log(`${person.name} tem ${person.age} e pesa ${person.weight} quilos.`);
+
+//Array
+
+const animals = ['gato', 'cachorro', 'rato'];
+
+console.log(animals); */
+
+
+
+let student = {
+    name: 'Ricardo',
+    age: 49,
+    stars: 499.10,
+    isSubscribed: true
+}
+
+console.log(`${student.name} tem ${student.age} pesa ${student.stars}.`)
+
+const students = [];
+
