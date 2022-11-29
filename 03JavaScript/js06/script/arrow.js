@@ -33,7 +33,6 @@ Function Constructor
   * Criar um novo objeto
   * This keyword
 
-*/
 
 function Person(name) {
     this.name = name
@@ -46,3 +45,11 @@ const ric = new Person('Ricardo')
 const ro = new Person('Rosangela')
 console.log(ric.walk())
 console.log(ro.walk())
+*/
+
+
+console.log({
+    name: 'Ricardo',
+    idade: 49,
+    naturalidade: 'São Paulo'
+})
