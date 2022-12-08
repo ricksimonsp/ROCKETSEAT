@@ -48,8 +48,25 @@ console.log(ro.walk())
 */
 
 
-console.log({
-    name: 'Ricardo',
-    idade: 49,
-    naturalidade: 'São Paulo'
-})
+
+//Object
+
+const person = {
+    name: 'John',
+    age: 30,
+    weight: 80,
+    isAdmin: true
+}
+
+console.log(`${person.name} tem ${person.age} anos.`)
+
+//Array
+
+const animals = [
+    'Lion',
+    'Monkey',
+    'Cat'
+]
+
+console.log(animals.length)
+
