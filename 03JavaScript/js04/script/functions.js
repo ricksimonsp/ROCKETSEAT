@@ -12,6 +12,9 @@
 
 creatPhrase()
 console.log('Fim do Programa!') */
+
+
+
 //FUNCTION EXPRESSION
 //FUNCTION ANONYMOUS
 
