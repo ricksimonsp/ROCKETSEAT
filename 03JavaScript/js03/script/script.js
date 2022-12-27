@@ -44,11 +44,21 @@ console.log(animals); */
 let student = {
     name: 'Ricardo',
     age: 49,
-    stars: 499.10,
+    altura: 185,
     isSubscribed: true
 }
 
-console.log(`${student.name} tem ${student.age} pesa ${student.stars}.`)
+console.log(`${student.name} tem ${student.age} e tem ${student.altura}cm de altura.`)
+
+
+nome = 'Ricardo'
+
+let idade, isHuman
+
+idade = 49
+isHuman = true
+
+console.log('O ' + nome + ' tem ' + idade + ' anos.')
 
 const students = [];
 

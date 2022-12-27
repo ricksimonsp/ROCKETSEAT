@@ -2,7 +2,7 @@
 //Declaration - declaração da função
 //Function statement
 
-/* function creatPhrase () {
+/*function creatPhrase () {
     console.log('Estudar é muito bom!');
     console.log('Paciência e persistência!');
     console.log('Revisão é mãe do aprendizado');
@@ -11,15 +11,23 @@
 //execute, run, call, invoke
 
 creatPhrase()
-console.log('Fim do Programa!') */
+console.log('Fim do Programa!')*/
 
 
+function niceCars() {
+    console.log('57 Chevy Bellair');
+    console.log('70 Dodge Challenger');
+    console.log('68 Ford Mustang');
+}
+
+niceCars()
+console.log('These are the best cars ever!')
 
 //FUNCTION EXPRESSION
 //FUNCTION ANONYMOUS
 
 //parâmetros - parameters
-const sum = function(number1, number2) {
+/*const sum = function(number1, number2) {
     total = number1 + number2
     return total
 
@@ -33,4 +41,4 @@ sum(number1, number2)
 console.log(`o número 1 é ${number1}`)
 console.log(`o número 2 é ${number2}`)
 console.log(`a soma é ${sum(number1, number2)}`)
-
+*/
