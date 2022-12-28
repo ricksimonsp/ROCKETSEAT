@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: brown;
+}
+
+html {
+    background-color: antiquewhite;
+}

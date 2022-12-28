@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+    background-color: rgb(233, 181, 117);
+    text-align: center;
+    border: solid 2px darkred;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+html {
+    background-color: bisque;
+}

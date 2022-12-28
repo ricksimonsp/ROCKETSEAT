@@ -35,11 +35,15 @@ console.log(subject)
 
 //Function hoisting
 
-//sayMyName()
+sayMyName()
 
-//function sayMyName(){
-//    console.log('Ricardo')
-//}
+function sayMyName() {
+    console.log('Rick')
+}
+
+
+
+
 /*
 
 sheIsBeautiful()
