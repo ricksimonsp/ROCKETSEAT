@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+html {
+    background-color: azure;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
