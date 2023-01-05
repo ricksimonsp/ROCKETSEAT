@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+html {
+    background-color: bisque;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+    padding: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+}

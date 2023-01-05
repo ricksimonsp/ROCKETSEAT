@@ -62,4 +62,4 @@ console.log(person)
     //exponencial **
     console.log(3 ** 3)
 
-
+    
