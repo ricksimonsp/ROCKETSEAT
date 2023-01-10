@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+}
+
+p {
+    text-align: justify;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item:nth-child(1) {
+    order: 1;
+}
+
+
+.container {
+    display: flex;
+    border: 1px solid red;
+    height: 200px;
+}
+
+.lote {
+    background-color: darkgrey;
+    border: 1px solid;
+    flex: 1;
+}
+
+

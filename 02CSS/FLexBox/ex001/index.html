@@ -1,12 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <title>FlexBox - CSS3</title>
 </head>
 <body>
+    <h1>Conhecendo, ou revendo estilos!</h1>
+    <p>Estilo em bloco, block <strong style="background-color: darksalmon;">inline</strong> dentro.</p>
+    <div style="background-color: aqua;">Fazendo divisão!</div>
+    <hr>
+    <h2>Table - Tabelas</h2>
+    <table> 
+        
+        <th>Tabelas</th>
+        <tr>
+            <td>Hora</td>
+            <td>20:00</td>
+        </tr>
+        <tr>
+            <td>Hora</td>
+            <td>20:37</td>
+        </tr>
+        <tr>
+            <td>Hora</td>
+            <td>20:50</td>
+            <td>Outra coisa!</td>
+        </tr>
+        
+    </table>
+
+    <h2>Tabless</h2>
+
+    <div style="float:left">Esquerda</div>
+    <div style="float:right">Direita</div>
+    <br>
+    <hr>
+    <h2>FLEXBOX - Finalmente</h2>
+
+    <div class="flexbox">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <hr>
+
+    <h2>Terminologia</h2>
+    <ul>
+        <li>Flex Container
+            <ul>
+                <li>Flex item</li>
+            </ul>
+        </li>
+        <li>Nesting</li>
+        <li>Axis
+            <ul><li>main</li>
+                <ul>start, end</ul></ul>
+            <ul><li>cross</li>
+                <ul>start, end</ul></ul>
+        </li>
+        <li>Flex Sizing
+            <ul>
+                <li>Flexível</li>
+                <li>Altera width/height dos itens para preenchimento dos espaços do flex container</li>
+            </ul>
+        </li>
+    </ul>
+<hr>
+<br>
     
+    <div class="container">
+        <div class="lote">1</div>
+        <div class="lote">2</div>
+        <div class="lote">3</div>
+    </div>
+
+
+
 </body>
 </html>
